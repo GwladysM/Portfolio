@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 100px;
+    background-color: brown;
+    padding: 20px;
+}
+
+.navbar__logo {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    gap: 2%
+}
+
+.navbar__navlink {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    gap: 2%
+}
+
+.navbar__navlink a {
+    text-decoration: none;
+    color: black
+}

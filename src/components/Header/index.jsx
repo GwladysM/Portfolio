@@ -1,11 +1,6 @@
 import React from 'react';
-import './style.scss';
-
-function Logo() {
-    return (
-        <img src="" alt="Gwladys M." />
-    )
-}
+import './header.css';
+import Logo from '../Logo';
 
 function Header() {
     return (

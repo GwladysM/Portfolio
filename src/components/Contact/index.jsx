@@ -1,4 +1,5 @@
 import React from "react";
+import './contact.css';
 
 function Contact() {
     const handleSubmit = (e) => {
@@ -17,29 +18,31 @@ function Contact() {
     };
 
     return (
-        <div id="contact">
+        <div id="contact" className="contact">
             <h2>Contact</h2>
-            <form onSubmit={handleSubmit}>
-                <label htmlFor="name">Nom</label>
-                <input
-                    type="text"
-                    id="name"
-                    name="name"
-                />
-                <label htmlFor="email">Email</label>
-                <input
-                    type="text"
-                    id="email"
-                    name="email"
-                />
-                <label htmlFor="message">Message</label>
-                <input
-                    type="text"
-                    id="message"
-                    name="message"
-                />
-                <button type="submit">Envoyer</button>
-            </form>
+            <div>
+                <form onSubmit={handleSubmit} className="contact__form">
+                    <label htmlFor="name">Nom</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                    />
+                    <label htmlFor="email">Email</label>
+                    <input
+                        type="text"
+                        id="email"
+                        name="email"
+                    />
+                    <label htmlFor="message">Message</label>
+                    <input
+                        type="text"
+                        id="message"
+                        name="message"
+                    />
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
         </div>
     )
 }

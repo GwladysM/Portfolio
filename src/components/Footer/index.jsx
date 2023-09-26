@@ -1,15 +1,18 @@
-import React from 'react'
+import React from 'react';
+import './footer.css';
+import Logo from '../Logo';
 
-function Logo() {
-    return (
-        <img src="" alt="Gwladys M." />
-    )
-}
 function Footer() {
     return (
         <div className='footer'>
-            <Logo />
-            <p>- -Gwladys M. - -</p>
+            <div className='footer__logo'>
+                <Logo />
+                <p>Gwladys M.</p>
+            </div>
+            <div className='footer__socials'>
+                <a href="/"><img src="../assets/photo-169489.jpg" alt="Lien vers GitHub" /></a>
+                <a href="/"><img src="../assets/photo-169489.jpg" alt="Lien vers LinkedIn" /></a>
+            </div>
         </div >
     )
 }
