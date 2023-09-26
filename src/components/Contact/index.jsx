@@ -1,5 +1,5 @@
 import React from "react";
-import './contact.css';
+import './contact.scss';
 
 function Contact() {
     const handleSubmit = (e) => {
@@ -30,12 +30,13 @@ function Contact() {
                     />
                     <label htmlFor="email">Email</label>
                     <input
-                        type="text"
+                        type="email"
                         id="email"
                         name="email"
+                        required
                     />
                     <label htmlFor="message">Message</label>
-                    <input
+                    <textarea
                         type="text"
                         id="message"
                         name="message"

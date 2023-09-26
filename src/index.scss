@@ -1,0 +1,59 @@
+/*font-family: 'Athiti', sans-serif;
+font-family: 'Boogaloo', cursive;
+font-family: 'Chicle', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Pattaya', sans-serif;*/
+
+body {
+  margin: 0;
+  /*font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
+    'Ubuntu', 'Fira Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;*/
+  font-family: 'Boogaloo', cursive;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 400;
+  margin: 0;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+}
+
+label {
+  font-size: 20px;
+}
+
+button {
+  font-family: 'Boogaloo', cursive;
+  font-weight: 400;
+  font-size: 20px;
+}

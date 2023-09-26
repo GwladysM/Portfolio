@@ -1,11 +1,13 @@
 import React from "react";
-import './logo.css';
+import './logo.scss';
 
 function Logo() {
-    <div className="logo__test">
-        <p>Gwladys M.</p>
-    </div>
+    return (
+        <div className="logo">
+            <img className="logo__img" src="../assets/photo-169.jpg" alt="Gwladys M." />
+            <h4>Gwladys M.</h4>
+        </div>
+    )
 }
-//<img src="../assets/photo-169.jpg" alt="Gwladys M." />
 
 export default Logo

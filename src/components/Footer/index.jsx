@@ -1,5 +1,5 @@
 import React from 'react';
-import './footer.css';
+import './footer.scss';
 import Logo from '../Logo';
 
 function Footer() {
@@ -7,11 +7,10 @@ function Footer() {
         <div className='footer'>
             <div className='footer__logo'>
                 <Logo />
-                <p>Gwladys M.</p>
             </div>
             <div className='footer__socials'>
-                <a href="/"><img src="../assets/photo-169489.jpg" alt="Lien vers GitHub" /></a>
-                <a href="/"><img src="../assets/photo-169489.jpg" alt="Lien vers LinkedIn" /></a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/GwladysM"><img src="../assets/github-mark.png" alt="Lien vers GitHub" /></a>
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/gwladys-m-094202239/"><img src="../assets/LI-Bug.svg.original.svg" alt="Lien vers LinkedIn" /></a>
             </div>
         </div >
     )

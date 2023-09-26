@@ -1,0 +1,16 @@
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+    width: 100%;
+    color: white;
+    font-family: 'Chicle', cursive;
+    font-size: 30px;
+
+    &__img {
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+    }
+}

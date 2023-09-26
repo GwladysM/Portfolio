@@ -1,17 +1,19 @@
 .navbar {
     display: flex;
     flex-direction: row;
-    width: auto;
-    height: 100px;
-    background-color: brown;
-    padding: 20px;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 174, 121);
+    position: fixed;
+    box-sizing: border-box;
 }
 
 .navbar__logo {
     display: flex;
     flex-direction: row;
-    width: 30%;
-    gap: 2%
+    width: 100%;
+    gap: 2%;
+    margin: 20px;
 }
 
 .navbar__navlink {
@@ -20,7 +22,8 @@
     justify-content: flex-end;
     align-items: center;
     width: 100%;
-    gap: 2%
+    gap: 4%;
+    margin: 20px;
 }
 
 .navbar__navlink a {
