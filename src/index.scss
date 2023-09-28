@@ -1,17 +1,9 @@
-/*font-family: 'Athiti', sans-serif;
-font-family: 'Boogaloo', cursive;
-font-family: 'Chicle', cursive;
-font-family: 'Monoton', cursive;
-font-family: 'Pattaya', sans-serif;*/
-
 body {
   margin: 0;
-  /*font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
     'Ubuntu', 'Fira Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;*/
-  font-family: 'Boogaloo', cursive;
-  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1,
@@ -45,7 +37,6 @@ p {
 
 a {
   font-size: 30px;
-  font-weight: 400;
   margin: 0;
   text-decoration: none;
   color: black;
@@ -56,7 +47,5 @@ label {
 }
 
 button {
-  font-family: 'Boogaloo', cursive;
-  font-weight: 400;
   font-size: 20px;
 }

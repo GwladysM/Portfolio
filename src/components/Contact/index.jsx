@@ -18,9 +18,9 @@ function Contact() {
     };
 
     return (
-        <div id="contact" className="contact">
+        <div id="contact" className="contact__container">
             <h2>Contact</h2>
-            <div>
+            <div className="contact">
                 <form onSubmit={handleSubmit} className="contact__form">
                     <label htmlFor="name">Nom</label>
                     <input
@@ -43,6 +43,13 @@ function Contact() {
                     />
                     <button type="submit">Envoyer</button>
                 </form>
+                <div className="contact__info">
+                    <p>Gwladys Morlier</p>
+                    <p>.</p>
+                    <p>Développeur Web - Front-End</p>
+                    <p>.</p>
+                    <p>gwladys.morlier@hotmail.fr</p>
+                </div>
             </div>
         </div>
     )

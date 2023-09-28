@@ -1,9 +1,21 @@
-.contact {
+.contact__container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     height: 600px;
+    background-color: wheat;
+    margin-top: 10vh;
+    padding: 5vh 0vh;
+}
+
+.contact__container h2 {
+    padding-bottom: 5vh;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: 20vh;
 }
 
 .contact__form {
@@ -41,4 +53,8 @@
 
 #message {
     height: 10em;
+}
+
+.contact__info {
+    text-align: center;
 }

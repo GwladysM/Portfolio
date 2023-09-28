@@ -6,6 +6,10 @@
     height: auto;
 }
 
+.projects h2 {
+    padding-top: 20vh;
+}
+
 .projects__gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
