@@ -3,6 +3,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 800px;
-    background-color: rgb(155, 48, 255);
+    height: auto;
+}
+
+.projects__gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15vh;
+    margin: 0 10vh;
+}
+
+.card {
+    border: 2px solid green;
+    padding: 2vh;
 }

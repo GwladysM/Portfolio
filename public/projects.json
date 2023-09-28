@@ -1,0 +1,90 @@
+[
+    {
+        "id": "P1",
+        "title": "Booki - Créer la page d'accueil d'une agence de voyage avec HTML & CSS",
+        "cover": "",
+        "description": "Premier projet effectué dans le rôle d'un développeur web, ayant pour mission d'implémenter une interface responsive en utilisant HTML et CSS. Intégrer du contenu conformément à une maquette.",
+        "skills": [
+            "HTML",
+            "CSS",
+            "Git",
+            "GitHub",
+            "Figma"
+        ],
+        "tags": [
+            "https://github.com/GwladysM/P2-BOOKI",
+            "lien vers la démo"
+        ]
+    },
+    {
+        "id": "P2",
+        "title": "Créer une page web dynamique avec JavaScript",
+        "cover": "",
+        "description": "Second projet effectué. Dans le rôle d'un développeur front-end, je devait mettre en place les différentes fonctionnalités du site web d'une architecte (connexion, ajout/suppression de projets). Manipuler les élements du DOM avec Javascript, récupérer les données utilisateurs dans le JavaScript via des formulaires et gérer les événements utilisateurs avec JavaScript.",
+        "skills": [
+            "Javascript Vanilla",
+            "Notion",
+            "Figma",
+            "API via Swagger",
+            "HTML",
+            "CSS",
+            "Git",
+            "GitHub"
+        ],
+        "tags": [
+            "https://github.com/GwladysM/P3-Architecte-Bluel-Front-End"
+        ]
+    },
+    {
+        "id": "P3",
+        "title": "Débugger et optimisez un site de photographe",
+        "cover": "",
+        "description": "Troisième projet. Dans le rôle d'un développeur freelance, j'ai optimisé le SEO et le référencement d'un site de photographe. Ainsi que débugger le site web grâce aux Chrome DevTools et rédiger un cahier de recette pour tester le site.",
+        "skills": [
+            "DevTools",
+            "Lighthouse",
+            "Schema.org",
+            "extension Wave",
+            "HTML",
+            "CSS",
+            "Git",
+            "GitHub"
+        ],
+        "tags": [
+            "https://github.com/GwladysM/P5-Debug-Optimisation"
+        ]
+    },
+    {
+        "id": "P4",
+        "title": "Kasa - Créer une application web de location immobilière avec React",
+        "cover": "",
+        "description": "Quatrème projet. Dans le rôle d'un développeur front-end en freelance, j'ai effectué la refonte d'un site de location de logement en React en suivant ces différents points : - Mettre en œuvre des animations CSS, - Développer des éléments de l'interface d'un site web grâce à des composants React, - Initialiser une application avec Create React App, - Développer une interface web avec Sass, - Configurer la navigation entre les pages de l'application avec React Router.",
+        "skills": [
+            "React",
+            "HTML",
+            "SCSS",
+            "Figma",
+            "Git",
+            "GitHub"
+        ],
+        "tags": [
+            "https://github.com/GwladysM/P6-REACT-KASA"
+        ]
+    },
+    {
+        "id": "P5",
+        "title": "Mon vieux Grimoire - Développer le back-end d'un site de notation de livres",
+        "cover": "",
+        "description": "Cinquième projet de la formation cette fois-ci en tant que développeur back-end freelance. La mission était de développer le back-end et l'API d'un site de notation de livres. Aussi, stocker des données de manière sécuriée, mettre en place la base de données, Implémenter un modèle logique de données conformément à la réglementation et aux spécifications techniques.",
+        "skills": [
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "Git",
+            "GitHub"
+        ],
+        "tags": [
+            "https://github.com/GwladysM/P7-back-end-vieux-grimoires"
+        ]
+    }
+]

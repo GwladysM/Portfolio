@@ -5,12 +5,12 @@ import Logo from '../Logo';
 function Footer() {
     return (
         <div className='footer'>
-            <div className='footer__logo'>
-                <Logo />
-            </div>
             <div className='footer__socials'>
                 <a target="_blank" rel="noreferrer" href="https://github.com/GwladysM"><img src="../assets/github-mark.png" alt="Lien vers GitHub" /></a>
                 <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/gwladys-m-094202239/"><img src="../assets/LI-Bug.svg.original.svg" alt="Lien vers LinkedIn" /></a>
+            </div>
+            <div className='footer__logo'>
+                <Logo />
             </div>
         </div >
     )
