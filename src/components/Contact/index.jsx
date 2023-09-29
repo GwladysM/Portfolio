@@ -21,7 +21,12 @@ function Contact() {
         <div id="contact" className="contact__container">
             <h2>Contact</h2>
             <div className="contact">
-                <form onSubmit={handleSubmit} className="contact__form">
+                <form
+                    onSubmit={handleSubmit}
+                    className="contact__form"
+                    action="https://api.staticforms.xyz/submit"
+                    method="post">
+                    <input type="hidden" name="accessKey" value="75ca14ec-1452-4f64-9774-3f5b77294dc5" />
                     <label htmlFor="name">Nom</label>
                     <input
                         type="text"
@@ -45,10 +50,14 @@ function Contact() {
                 </form>
                 <div className="contact__info">
                     <p>Gwladys Morlier</p>
-                    <p>.</p>
                     <p>Développeur Web - Front-End</p>
-                    <p>.</p>
                     <p>gwladys.morlier@hotmail.fr</p>
+                    <a href="afficher-mon-cv" target='_blank'>
+                        <button className="moncv">
+                            Mon Curriculum Vitae
+                            <img src="/assets/vue.png" alt="Voir mon C.V." />
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>

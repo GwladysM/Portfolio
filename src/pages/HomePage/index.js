@@ -1,18 +1,18 @@
 import React from 'react';
 import Banner from '../../components/Banner';
 import About from '../../components/About';
-import Projects from '../../components/Projects';
+import ProjectsList from '../../components/ProjectsList';
 import Contact from '../../components/Contact';
 
-function Home() {
+function HomePage() {
     return (
         <div>
             <Banner />
             <About />
-            <Projects />
+            <ProjectsList />
             <Contact />
         </div>
     )
 }
 
-export default Home
+export default HomePage

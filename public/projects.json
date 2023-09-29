@@ -11,10 +11,8 @@
             "GitHub",
             "Figma"
         ],
-        "tags": [
-            "https://github.com/GwladysM/P2-BOOKI",
-            "lien vers la démo"
-        ]
+        "gitHub": "https://github.com/GwladysM/P2-BOOKI",
+        "demo": "lien vers la démo"
     },
     {
         "id": "P2",
@@ -22,7 +20,7 @@
         "cover": "",
         "description": "Second projet effectué. Dans le rôle d'un développeur front-end, je devait mettre en place les différentes fonctionnalités du site web d'une architecte (connexion, ajout/suppression de projets). Manipuler les élements du DOM avec Javascript, récupérer les données utilisateurs dans le JavaScript via des formulaires et gérer les événements utilisateurs avec JavaScript.",
         "skills": [
-            "Javascript Vanilla",
+            "Javascript",
             "Notion",
             "Figma",
             "API via Swagger",
@@ -31,9 +29,7 @@
             "Git",
             "GitHub"
         ],
-        "tags": [
-            "https://github.com/GwladysM/P3-Architecte-Bluel-Front-End"
-        ]
+        "gitHub": "https://github.com/GwladysM/P3-Architecte-Bluel-Front-End"
     },
     {
         "id": "P3",
@@ -50,9 +46,7 @@
             "Git",
             "GitHub"
         ],
-        "tags": [
-            "https://github.com/GwladysM/P5-Debug-Optimisation"
-        ]
+        "gitHub": "https://github.com/GwladysM/P5-Debug-Optimisation"
     },
     {
         "id": "P4",
@@ -67,9 +61,8 @@
             "Git",
             "GitHub"
         ],
-        "tags": [
-            "https://github.com/GwladysM/P6-REACT-KASA"
-        ]
+        "gitHub": "https://github.com/GwladysM/P6-REACT-KASA",
+        "demo": "lien vers la démo"
     },
     {
         "id": "P5",
@@ -83,8 +76,6 @@
             "Git",
             "GitHub"
         ],
-        "tags": [
-            "https://github.com/GwladysM/P7-back-end-vieux-grimoires"
-        ]
+        "gitHub": "https://github.com/GwladysM/P7-back-end-vieux-grimoires"
     }
 ]

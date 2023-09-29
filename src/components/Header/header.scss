@@ -6,7 +6,7 @@
     height: 80px;
     position: fixed;
     box-sizing: border-box;
-    background-color: wheat;
+    background-color: rgb(240, 255, 234);
 }
 
 .navbar__logo {
@@ -27,5 +27,5 @@
 }
 
 .active {
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid rgb(109, 255, 129);
 }

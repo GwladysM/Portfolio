@@ -1,0 +1,29 @@
+.card__container {
+    padding-top: 10vh;
+}
+
+.card__skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1vh;
+    margin: 2vh 0vh;
+}
+
+.skill {
+    margin: 0;
+    border: 1px solid black;
+
+}
+
+.card__link {
+    display: flex;
+    justify-content: space-around;
+}
+
+.appear {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}

@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     height: 600px;
-    background-color: wheat;
+    background-color: rgb(240, 255, 234);
     margin-top: 10vh;
     padding: 5vh 0vh;
 }
@@ -15,13 +15,15 @@
 .contact {
     display: flex;
     flex-direction: row;
-    gap: 20vh;
+    justify-content: center;
+    width: 100%;
+    padding-top: 8vh;
 }
 
 .contact__form {
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
+    padding-right: 15vh;
     height: auto;
     width: auto;
 }
@@ -33,6 +35,11 @@
     border: 0;
 }
 
+.contact__form button:active {
+    border: 2px solid black;
+    background-color: bisque;
+}
+
 .contact__form label {
     margin-bottom: 5px;
 }
@@ -40,7 +47,7 @@
 #name,
 #email,
 #message {
-    border-radius: 5px;
+    border-radius: 0px 5px 5px 5px;
     border: 0;
     width: 20em;
     margin-bottom: 5px;
@@ -56,5 +63,25 @@
 }
 
 .contact__info {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid;
+    padding-left: 10vh;
+}
+
+.moncv {
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+    border: 3px solid black;
+    border-radius: 35px;
+    background-color: rgb(240, 255, 234);
+    padding: 1.5vh;
+    margin: 3vh;
+}
+
+.moncv img {
+    height: 5vh;
 }

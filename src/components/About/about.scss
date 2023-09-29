@@ -2,9 +2,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 800px;
+    height: 900px;
+    background: rgb(250, 255, 248);
 }
 
 .about h2 {
     padding-top: 20vh;
+}
+
+.about__descrption {
+    margin: 0vh 5vh;
+    padding: 5vh;
+    border: 1px solid black;
+    line-height: 4vh;
 }

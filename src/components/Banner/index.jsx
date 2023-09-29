@@ -4,7 +4,7 @@ import './banner.scss';
 function Banner() {
     return (
         <section id="home" className="banner" style={{
-            backgroundImage: 'linear-gradient(rgba(255, 238, 207, 1), rgba(250, 250, 250, 0.3)), url(./assets/winston-tjia-JZvoDS6JHTU-unsplash.jpg)',
+            backgroundImage: 'linear-gradient(rgba(250, 255, 248, 1), rgba(255, 255, 255, 0.3)), url(./assets/winston-tjia-JZvoDS6JHTU-unsplash.jpg)',
             backgroundSize: 'cover'
         }}>
             <h1>Bienvenu,</h1>
