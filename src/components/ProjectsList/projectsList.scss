@@ -4,20 +4,59 @@
     justify-content: center;
     align-items: center;
     height: auto;
+
+    h2 {
+        padding-top: 20vh;
+    }
 }
 
-.projects h2 {
-    padding-top: 20vh;
-}
-
-.projects__gallery {
+.projects__list {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 15vh;
+    gap: 10vh;
     margin: 0 10vh;
 }
 
 .card {
-    border: 2px solid green;
-    padding: 2vh;
+    position: relative;
+    display: flex;
+
+    h3 {
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        z-index: 1;
+    }
+
+    h3,
+    span {
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        transform: translate(-20%, -20%);
+    }
+
+    span {
+        height: 100%;
+    }
+
+    img {
+        object-fit: cover;
+        box-shadow: 5px 5px 15px 3px rgba(22, 45, 20, 0.6);
+    }
+
+    img,
+    span {
+        width: 100%;
+        border-radius: 0vh 5vh 5vh 5vh;
+    }
+
+    &:hover h3 {
+        opacity: 1;
+        border-radius: 0vh 5vh 5vh 5vh;
+    }
+
+    &:hover span {
+        background-color: rgba(113, 155, 113, 0.8);
+    }
 }

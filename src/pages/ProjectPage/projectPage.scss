@@ -1,5 +1,25 @@
 .card__container {
-    padding-top: 10vh;
+    padding: 10vh 20vh;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+        text-align: center;
+        padding-bottom: 4vh;
+    }
+
+    h4 {
+        width: 100%;
+        text-align: left;
+    }
+}
+
+.card__description {
+    line-height: 3vh;
+    text-align: justify;
 }
 
 .card__skills {
@@ -11,13 +31,23 @@
 
 .skill {
     margin: 0;
-    border: 1px solid black;
-
+    padding: 1vh;
+    background-color: rgb(240, 255, 234);
+    border-radius: 1vh;
+    text-align: center;
 }
 
 .card__link {
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    padding-top: 10vh;
+
+    a {
+        border: 1vh solid rgb(240, 255, 234);
+        border-radius: 4vh;
+        padding: 2vh;
+    }
 }
 
 .appear {

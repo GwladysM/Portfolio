@@ -6,15 +6,9 @@ function Contact() {
         e.preventDefault();
 
         const form = e.target;
-        const formData = new FormData(form);
-
-        const name = formData.get("name");
-        const email = formData.get("email");
-        const message = formData.get("message");
-
         form.reset();
 
-        alert(`Name: ${name} Email: ${email} Message: ${message}`);
+        console.log("envoyé");
     };
 
     return (
@@ -22,11 +16,11 @@ function Contact() {
             <h2>Contact</h2>
             <div className="contact">
                 <form
-                    onSubmit={handleSubmit}
                     className="contact__form"
                     action="https://api.staticforms.xyz/submit"
                     method="post">
                     <input type="hidden" name="accessKey" value="75ca14ec-1452-4f64-9774-3f5b77294dc5" />
+                    <input type="hidden" name="redirectTo" value="http://localhost:3000/#home" />
                     <label htmlFor="name">Nom</label>
                     <input
                         type="text"
@@ -46,7 +40,7 @@ function Contact() {
                         id="message"
                         name="message"
                     />
-                    <button type="submit">Envoyer</button>
+                    <button type="submit" onSubmit={handleSubmit}>Envoyer</button>
                 </form>
                 <div className="contact__info">
                     <p>Gwladys Morlier</p>
