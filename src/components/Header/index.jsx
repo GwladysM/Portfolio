@@ -10,11 +10,11 @@ function Header() {
 
     return (
         <nav className='navbar'>
-            <a href='/' className='navbar__logo'>
+            <a href='/#home' className='navbar__logo'>
                 <Logo />
             </a>
             <div className='navbar__navlink'>
-                <a href="/"
+                <a href="/#home"
                     className={active === 'home' ? "" : ""}
                     onClick={() => handleClick('home')}
                 >

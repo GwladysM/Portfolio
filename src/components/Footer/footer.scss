@@ -1,3 +1,8 @@
+$bleu-fonce : rgb(21, 73, 117);
+$vert-fonce : rgb(90, 131, 88);
+$vert : #5EC261;
+$vert-clair : #DBF9D8;
+
 .footer {
     display: flex;
     flex-direction: row;
@@ -5,17 +10,20 @@
     width: auto;
     height: 80px;
     padding: 20px;
+    background-color: rgba(90, 131, 88, 0.8);
 
     &__logo {
-        width: 50vh;
+        width: 20%;
+        margin: 20px;
     }
 
     &__socials {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
-        width: 150vh;
+        width: 80%;
         gap: 10vh;
+        margin: 0px 20px;
     }
 }
 

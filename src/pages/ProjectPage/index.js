@@ -19,15 +19,23 @@ function ProjectPage() {
         <div className="card__container">
             <h3>{project.title}</h3>
             <p className="card__description">{project.description}</p>
-            <h4>Skills :</h4>
             <div className="card__skills">
                 {project.skills.map((skill, index) => (
                     <p className="skill" key={index}>{skill}</p>
                 ))}
             </div>
+            <div className="card__responsive">
+                <div className="test">
+                    <img src={project.desk} alt={project.id} className="desk"></img>
+
+                    <img src={project.tab} alt={project.id} className="tab"></img>
+
+                    <img src={project.mobile} alt={project.id} className="mobile"></img>
+                </div>
+            </div>
             <div className="card__link">
-                <a href={project.gitHub} target="_blank" rel="noreferrer">GitHub</a>
-                <a className={project.demo ? "appear" : "hidden"} href={project.demo} target="_blank" rel="noreferrer">Démo</a>
+                {project.gitHub && <a href={project.gitHub} target="_blank" rel="noreferrer">GitHub</a>}
+                {project.demo && <a href={project.demo} target="_blank" rel="noreferrer">Démo</a>}
             </div>
         </div>
     )

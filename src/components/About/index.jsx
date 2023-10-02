@@ -23,7 +23,7 @@ function About() {
                 <br />
                 Je me forme donc auprès d'OpenClassRoom afin d'obtenir le diplôme certifiant de développeur web.
                 <br />
-                Au cours des huit derniers mois, j'appris différents langages de programmation, notamment HTML, CSS, Javascript et plus récemment React.
+                Au cours des huit derniers mois, j'ai appris différents langages de programmation, notamment HTML, CSS, Javascript et plus récemment React.
                 Mais ce n'est pas tout, apprendre comment optimiser un site web, améliorer son référensement et son SEO ont aussi fait partie de ma formation.
                 <br />
                 Mon objectif désormais est de progresser et me perfectionner sur la partie front-end et en particulier via React.

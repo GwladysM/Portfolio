@@ -1,13 +1,15 @@
+$bleu-fonce : #154975;
+$vert-fonce : rgb(90, 131, 88);
+$vert : rgb(94, 194, 97);
+$vert-clair : #DBF9D8;
+
 .projects {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: auto;
-
-    h2 {
-        padding-top: 20vh;
-    }
+    padding: 10vh 0vh;
+    background-color: rgba(90, 131, 88, 0.8);
 }
 
 .projects__list {
@@ -42,7 +44,7 @@
 
     img {
         object-fit: cover;
-        box-shadow: 5px 5px 15px 3px rgba(22, 45, 20, 0.6);
+        box-shadow: 5px 5px 15px 3px $bleu-fonce;
     }
 
     img,
@@ -52,11 +54,12 @@
     }
 
     &:hover h3 {
+        font-size: 45px;
         opacity: 1;
         border-radius: 0vh 5vh 5vh 5vh;
     }
 
     &:hover span {
-        background-color: rgba(113, 155, 113, 0.8);
+        background-color: rgb(219, 249, 216, 0.7);
     }
 }

@@ -1,3 +1,8 @@
+$bleu-fonce : #154975;
+$vert-fonce : rgb(90, 131, 88);
+$vert : rgb(94, 194, 97);
+$vert-clair : rgb(219, 249, 216);
+
 .navbar {
     z-index: 1;
     display: flex;
@@ -6,7 +11,7 @@
     height: 80px;
     position: fixed;
     box-sizing: border-box;
-    background-color: rgb(240, 255, 234);
+    background-color: $vert-clair;
 }
 
 .navbar__logo {
@@ -27,5 +32,5 @@
 }
 
 .active {
-    border-bottom: 2px solid rgb(109, 255, 129);
+    border-bottom: 2px solid $vert-fonce;
 }

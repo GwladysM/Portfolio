@@ -12,7 +12,10 @@
             "Figma"
         ],
         "gitHub": "https://github.com/GwladysM/P2-BOOKI",
-        "demo": "lien vers la démo"
+        "demo": "lien vers la démo",
+        "desk": "/assets/Booki/Booki-desk.jpeg",
+        "tab": "/assets/Booki/Booki-tab.jpeg",
+        "mobile": "/assets/Booki/Booki-tel.jpeg"
     },
     {
         "id": "Bluel",
@@ -21,7 +24,6 @@
         "description": "Second projet effectué. Dans le rôle d'un développeur front-end, je devait mettre en place les différentes fonctionnalités du site web d'une architecte (connexion, ajout/suppression de projets). Manipuler les élements du DOM avec Javascript, récupérer les données utilisateurs dans le JavaScript via des formulaires et gérer les événements utilisateurs avec JavaScript.",
         "skills": [
             "Javascript",
-            "Notion",
             "Figma",
             "API via Swagger",
             "HTML",
@@ -29,7 +31,10 @@
             "Git",
             "GitHub"
         ],
-        "gitHub": "https://github.com/GwladysM/P3-Architecte-Bluel-Front-End"
+        "gitHub": "https://github.com/GwladysM/P3-Architecte-Bluel-Front-End",
+        "desk": "/assets/Bluel/Bluel-desk.jpeg",
+        "tab": "/assets/Bluel/Bluel-tab.jpeg",
+        "mobile": "/assets/Bluel/Bluel-tel.jpeg"
     },
     {
         "id": "Carducci",
@@ -40,13 +45,12 @@
             "DevTools",
             "Lighthouse",
             "Schema.org",
-            "extension Wave",
-            "HTML",
-            "CSS",
-            "Git",
-            "GitHub"
+            "extension Wave"
         ],
-        "gitHub": "https://github.com/GwladysM/P5-Debug-Optimisation"
+        "gitHub": "https://github.com/GwladysM/P5-Debug-Optimisation",
+        "desk": "/assets/Carducci/Carducci-desk.png",
+        "tab": "/assets/Carducci/Carducci-tab.jpeg",
+        "mobile": "/assets/Carducci/Carducci-tel.jpeg"
     },
     {
         "id": "Kasa",
@@ -62,7 +66,10 @@
             "GitHub"
         ],
         "gitHub": "https://github.com/GwladysM/P6-REACT-KASA",
-        "demo": "lien vers la démo"
+        "demo": "lien vers la démo",
+        "desk": "/assets/Kasa/Kasa-desk.jpeg",
+        "tab": "/assets/Kasa/Kasa-tab.jpeg",
+        "mobile": "/assets/Kasa/Kasa-tel.jpeg"
     },
     {
         "id": "Vieux Grimoire",
@@ -76,6 +83,9 @@
             "Git",
             "GitHub"
         ],
-        "gitHub": "https://github.com/GwladysM/P7-back-end-vieux-grimoires"
+        "gitHub": "https://github.com/GwladysM/P7-back-end-vieux-grimoires",
+        "desk": "/assets/Grimoire/mon-vieux-grimoire-desk.jpeg",
+        "tab": "/assets/Grimoire/mon-vieux-grimoire-tab.png",
+        "mobile": "/assets/Grimoire/mon-vieux-grimoire-tel.jpeg"
     }
 ]
