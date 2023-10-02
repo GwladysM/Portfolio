@@ -10,7 +10,7 @@ function ProjectsList() {
             <h2>Mes Projets</h2>
             <div className="projects__list">
                 {projects.map((project) => (
-                    <Link to={`/mes-projets/${project.id}`} className="card"
+                    <Link to={`/Portfolio/mes-projets/${project.id}`} className="card"
                         key={project.id}
                         id={project.id}>
                         <h3>Projet {project.id}</h3>

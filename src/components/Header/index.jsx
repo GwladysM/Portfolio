@@ -10,29 +10,29 @@ function Header() {
 
     return (
         <nav className='navbar'>
-            <a href='/#home' className='navbar__logo'>
+            <a href='/Portfolio/#home' className='navbar__logo'>
                 <Logo />
             </a>
             <div className='navbar__navlink'>
-                <a href="/#home"
+                <a href="/Portfolio/#home"
                     className={active === 'home' ? "" : ""}
                     onClick={() => handleClick('home')}
                 >
                     Accueil
                 </a>
-                <a href="/#about"
+                <a href="/Portfolio/#about"
                     className={active === 'about' ? "active" : ""}
                     onClick={() => handleClick('about')}
                 >
                     A propos
                 </a>
-                <a href="/#projects"
+                <a href="/Portfolio/#projects"
                     className={active === 'projects' ? "active" : ""}
                     onClick={() => handleClick('projects')}
                 >
                     Projets
                 </a>
-                <a href="/#contact"
+                <a href="/Portfolio/#contact"
                     className={active === 'contact' ? "active" : ""}
                     onClick={() => handleClick('contact')}
                 >
