@@ -20,7 +20,7 @@ function Contact() {
                     action="https://api.staticforms.xyz/submit"
                     method="post">
                     <input type="hidden" name="accessKey" value="75ca14ec-1452-4f64-9774-3f5b77294dc5" />
-                    <input type="hidden" name="redirectTo" value="http://localhost:3000/#home" />
+                    <input type="hidden" name="redirectTo" value="https://gwladysm.github.io/Portfolio" />
                     <label htmlFor="name">Nom</label>
                     <input
                         type="text"
@@ -49,7 +49,7 @@ function Contact() {
                     <a href="afficher-mon-cv" target='_blank'>
                         <button className="moncv">
                             Mon Curriculum Vitae
-                            <img src="/assets/vue.png" alt="Voir mon C.V." />
+                            <img src="./assets/vue.png" alt="Voir mon C.V." />
                         </button>
                     </a>
                 </div>

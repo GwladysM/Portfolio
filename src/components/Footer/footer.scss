@@ -24,9 +24,14 @@ $vert-clair : #DBF9D8;
         width: 80%;
         gap: 10vh;
         margin: 0px 20px;
+
     }
 }
 
-.footer__socials img {
-    width: 80px;
+.socials__logo {
+    font-size: 40px;
+
+    &:hover {
+        filter: drop-shadow(2px 4px 6px white);
+    }
 }
