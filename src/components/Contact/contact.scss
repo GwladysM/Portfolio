@@ -7,7 +7,6 @@ $vert-clair : #DBF9D8;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 600px;
     background-color: $vert-clair;
     padding: 5vh 0vh;
 }
@@ -22,6 +21,12 @@ $vert-clair : #DBF9D8;
     justify-content: center;
     width: 100%;
     padding-top: 8vh;
+
+    @media screen and (max-width : 920px) {
+        padding-top: 0;
+        flex-direction: column-reverse;
+        gap: 5vh;
+    }
 }
 
 .contact__form {
@@ -30,6 +35,11 @@ $vert-clair : #DBF9D8;
     padding-right: 15vh;
     height: auto;
     width: auto;
+
+    @media screen and (max-width : 920px) {
+        align-items: center;
+        padding: 0;
+    }
 }
 
 .contact__form button {
@@ -74,6 +84,10 @@ $vert-clair : #DBF9D8;
     align-items: center;
     border-left: 1px solid;
     padding-left: 10vh;
+
+    @media screen and (max-width : 920px) {
+        padding: 0;
+    }
 }
 
 .moncv {
@@ -85,6 +99,7 @@ $vert-clair : #DBF9D8;
     background-color: $vert-clair;
     padding: 1.5vh;
     margin: 3vh;
+    min-width: max-content;
 }
 
 .moncv img {

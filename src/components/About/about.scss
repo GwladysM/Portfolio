@@ -7,16 +7,16 @@ $vert-clair : #DBF9D8;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 900px;
     background: $vert-clair;
 }
 
 .about h2 {
-    padding-top: 20vh;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
 }
 
 .about__descrption {
-    margin: 0vh 5vh;
+    margin: 5vh;
     padding: 5vh;
     border-bottom: 1px solid black;
     border-left: 1px solid black;

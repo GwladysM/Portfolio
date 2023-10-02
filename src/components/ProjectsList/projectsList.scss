@@ -17,6 +17,11 @@ $vert-clair : #DBF9D8;
     grid-template-columns: 1fr 1fr;
     gap: 10vh;
     margin: 0 10vh;
+
+    @media screen and (max-width : 920px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .card {
