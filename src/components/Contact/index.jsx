@@ -46,11 +46,9 @@ function Contact() {
                     <p>Gwladys Morlier</p>
                     <p>Développeur Web - Front-End</p>
                     <p>gwladys.morlier@hotmail.fr</p>
-                    <a href="afficher-mon-cv" target='_blank'>
-                        <button className="moncv">
-                            Mon Curriculum Vitae
-                            <img src="./assets/vue.png" alt="Voir mon C.V." />
-                        </button>
+                    <a href="afficher-mon-cv" target='_blank' className="moncv">
+                        Mon C.V.
+                        <img src="./assets/vue.png" alt="Voir mon C.V." />
                     </a>
                 </div>
             </div>

@@ -12,19 +12,24 @@ $vert-clair : #DBF9D8;
     padding: 20px;
     background-color: rgba(90, 131, 88, 0.8);
 
+    @media screen and (max-width: 560px) {
+        justify-content: center;
+    }
+
     &__logo {
-        width: 20%;
         margin: 20px;
+
+        @media screen and (max-width: 560px) {
+            display: none;
+        }
     }
 
     &__socials {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 80%;
         gap: 10vh;
         margin: 0px 20px;
-
     }
 }
 

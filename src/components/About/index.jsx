@@ -15,16 +15,11 @@ function About() {
                 j'ai choisi d'effectuer une reconversion professionnelle après
                 dix belles années en tant qu'assistante spécialisée vétérinaire.
                 <br />
-                Alors Ciao chiens, chats et bovins, maintenant c'est plutot HTML, CSS et React !
-                <br />
-                "Mais pourquoi ?!" Me direz-vous.
-                <br />
-                Je vous expliquerait une autre fois, mais pour faire simple : Découverte, Apprentissage et Possibiltés d'évolution.
-                <br />
                 Je me forme donc auprès d'OpenClassRoom afin d'obtenir le diplôme certifiant de développeur web.
                 <br />
-                Au cours des huit derniers mois, j'ai appris différents langages de programmation, notamment HTML, CSS, Javascript et plus récemment React.
-                Mais ce n'est pas tout, apprendre comment optimiser un site web, améliorer son référensement et son SEO ont aussi fait partie de ma formation.
+                Au cours des huit derniers mois, j'ai appris différents langages de programmation,
+                notamment HTML, CSS, Javascript et plus récemment React.
+                Mais ce n'est pas tout, apprendre comment optimiser un site web, améliorer son référencement et son SEO font également partie de ma formation.
                 <br />
                 Mon objectif désormais est de progresser et me perfectionner sur la partie front-end et en particulier via React.
             </p>

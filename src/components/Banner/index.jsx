@@ -10,7 +10,7 @@ function Banner() {
             <div className="banner">
                 <h1>Bienvenu,</h1>
                 <br />
-                <h2>Je suis <span>Gwladys </span>, Développeuse Front-end</h2>
+                <h2>Je suis <span>Gwladys </span>, Développeuse Front-End</h2>
             </div>
         </div>
     )

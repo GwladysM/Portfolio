@@ -12,13 +12,19 @@ $vert-clair : rgb(219, 249, 216);
     position: fixed;
     box-sizing: border-box;
     background-color: $vert-clair;
+
 }
 
 .navbar__logo {
     display: flex;
     flex-direction: row;
     width: 100vh;
+    min-width: fit-content;
     margin: 20px;
+
+    @media screen and (max-width: 920px) {
+        display: none;
+    }
 }
 
 .navbar__navlink {
@@ -27,8 +33,13 @@ $vert-clair : rgb(219, 249, 216);
     justify-content: flex-end;
     align-items: center;
     width: 150vh;
+    min-width: fit-content;
     gap: 4vh;
     margin: 20px;
+
+    @media screen and (max-width: 920px) {
+        justify-content: center;
+    }
 }
 
 .active {
