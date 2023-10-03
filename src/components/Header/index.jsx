@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './header.scss';
 import Logo from '../Logo';
+import { FaHome, FaInfoCircle, FaBriefcase, FaAt } from 'react-icons/fa';
 
 function Header() {
     const [active, setActive] = useState('home');
@@ -18,25 +19,29 @@ function Header() {
                     className={active === 'home' ? "" : ""}
                     onClick={() => handleClick('home')}
                 >
-                    Accueil
+                    <p className='navbar__desktop'>Accueil</p>
+                    <FaHome className='navbar__mobile' />
                 </a>
                 <a href="/Portfolio/#about"
                     className={active === 'about' ? "active" : ""}
                     onClick={() => handleClick('about')}
                 >
-                    A propos
+                    <p className='navbar__desktop'>A propos</p>
+                    <FaInfoCircle className='navbar__mobile' />
                 </a>
                 <a href="/Portfolio/#projects"
                     className={active === 'projects' ? "active" : ""}
                     onClick={() => handleClick('projects')}
                 >
-                    Projets
+                    <p className='navbar__desktop'>Projets</p>
+                    <FaBriefcase className='navbar__mobile' />
                 </a>
                 <a href="/Portfolio/#contact"
                     className={active === 'contact' ? "active" : ""}
                     onClick={() => handleClick('contact')}
                 >
-                    Contact
+                    <p className='navbar__desktop'>Contact</p>
+                    <FaAt className='navbar__mobile' />
                 </a>
             </div>
         </nav>

@@ -9,10 +9,19 @@ $vert-clair : #DBF9D8;
     align-items: center;
     background-color: $vert-clair;
     padding: 10vh 0;
+
+    @media screen and (max-width:920px) {
+        padding-top: 0;
+        padding-bottom: 4vh;
+    }
 }
 
 .contact__container h2 {
     padding-bottom: 5vh;
+
+    @media screen and (max-width:560px) {
+        padding-bottom: 1vh;
+    }
 }
 
 .contact {
@@ -26,6 +35,11 @@ $vert-clair : #DBF9D8;
         padding-top: 0;
         flex-direction: column-reverse;
         gap: 5vh;
+        width: auto;
+    }
+
+    @media screen and (max-width : 560px) {
+        gap: 2vh;
     }
 }
 
@@ -86,9 +100,16 @@ $vert-clair : #DBF9D8;
     padding-left: 10vh;
 
     @media screen and (max-width : 920px) {
-        padding: 5vh;
+        padding-bottom: 4vh;
+        padding-left: 0;
         border-left: 0;
         border-bottom: 1px solid;
+    }
+
+    @media screen and (max-width:560px) {
+        >p {
+            margin: 0.5vh;
+        }
     }
 }
 
@@ -99,8 +120,17 @@ $vert-clair : #DBF9D8;
     gap: 1vh;
     border: 3px solid black;
     border-radius: 35px;
-    background-color: $vert-clair;
     padding: 1.5vh;
+
+    @media screen and (max-width:920px) {
+        border-radius: 45px;
+        padding: 1vh 2vh;
+        margin-top: 1vh;
+    }
+
+    @media screen and (max-width:560px) {
+        border: 2px solid black;
+    }
 }
 
 .moncv img {

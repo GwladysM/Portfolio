@@ -13,9 +13,9 @@
         ],
         "gitHub": "https://github.com/GwladysM/P2-BOOKI",
         "demo": "lien vers la démo",
-        "desk": "./assets/Booki/Booki-desk.jpeg",
-        "tab": "./assets/Booki/Booki-tab.jpeg",
-        "mobile": "./assets/Booki/Booki-tel.jpeg"
+        "desk": "/assets/Booki/Booki-desk.jpeg",
+        "tab": "/assets/Booki/Booki-tab.jpeg",
+        "mobile": "/assets/Booki/Booki-tel.jpeg"
     },
     {
         "id": "Bluel",

@@ -1,19 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import './projectPage.scss';
 import projects from '../../projects.json';
 import Error from '../../components/Error';
 
 function ProjectPage() {
-    //Récupération de l'ID :
-    const { id } = useParams()
-
+    const { id } = useParams();
     //Utilisation du find() pour cibler l'ID du projet sélectionné :
     const project = projects.find((project) => project.id === id);
 
+    // Défilement vers le haut de la page au chargement
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
+
     if (!project) {
         return <Error />
-    }
+    };
 
     return (
         <div className="card__container">

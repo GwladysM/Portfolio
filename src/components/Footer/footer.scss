@@ -13,6 +13,7 @@ $vert-clair : #DBF9D8;
     background-color: rgba(90, 131, 88, 0.8);
 
     @media screen and (max-width: 560px) {
+        height: auto;
         justify-content: center;
     }
 

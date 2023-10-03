@@ -8,23 +8,18 @@ $vert-clair : #DBF9D8;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    height: 900px;
+    height: 100vh;
     border-radius: (0% 10% 100% 0% / 0% 0% 60% 10%);
+
+    @media screen and (max-width:920px) {
+        border-radius: 0;
+        text-align: center;
+    }
 }
 
 .banner {
     padding: 0vh 5vh;
 }
-
-/*.banner h1,
-.banner h2 {
-    margin-left: 15vh;
-}
-
-.banner h1 {
-    margin-bottom: 7vh;
-    font-weight: 800;
-}*/
 
 span {
     font-weight: 900;
