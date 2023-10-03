@@ -11,6 +11,8 @@ function Contact() {
         console.log("envoyé");
     };
 
+    const pdfPath = process.env.PUBLIC_URL + '/Gwladys_Morlier_CV_2023.pdf';
+
     return (
         <div id="contact" className="contact__container">
             <h2>Contact</h2>
@@ -46,7 +48,7 @@ function Contact() {
                     <p>Gwladys Morlier</p>
                     <p>Développeur Web - Front-End</p>
                     <p>gwladys.morlier@hotmail.fr</p>
-                    <a href="afficher-mon-cv" target='_blank' className="moncv">
+                    <a href={pdfPath} target='_blank' rel="noreferrer" className="moncv">
                         Mon C.V.
                         <img src="./assets/vue.png" alt="Voir mon C.V." />
                     </a>
