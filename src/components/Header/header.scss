@@ -63,4 +63,8 @@ $vert-clair : rgb(219, 249, 216);
 
 .active {
     border-bottom: 2px solid $vert-fonce;
+
+    @media screen and (max-width:560px) {
+        border-bottom: 0;
+    }
 }

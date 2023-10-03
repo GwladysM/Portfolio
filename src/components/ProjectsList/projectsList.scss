@@ -22,6 +22,11 @@ $vert-clair : #DBF9D8;
         display: flex;
         flex-direction: column;
     }
+
+    @media screen and (max-width: 560px) {
+        gap: 5vh;
+        margin: 0 3vh;
+    }
 }
 
 .card {

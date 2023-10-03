@@ -4,13 +4,22 @@ $vert : rgb(94, 194, 97);
 $vert-clair : rgb(219, 249, 216);
 
 .card__container {
-    padding: 20vh 20vh 10vh 20vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: linear-gradient(rgb(219, 249, 216, .8), rgb(219, 249, 216, 0.3)), url('https://cdn.pixabay.com/photo/2015/08/30/07/38/vintage-913891_640.jpg');
     background-size: cover;
+    padding: 20vh 20vh 10vh 20vh;
+
+    @media screen and (max-width:920px) {
+        height: 100%;
+        padding: 8vh;
+    }
+
+    @media screen and (max-width: 560px) {
+        padding: 5vh;
+    }
 
     h3 {
         text-align: center;
@@ -25,6 +34,7 @@ $vert-clair : rgb(219, 249, 216);
 
 .card__skills {
     display: flex;
+    justify-content: center;
     gap: 3vh;
     margin: 2vh 0vh;
     flex-wrap: wrap;
