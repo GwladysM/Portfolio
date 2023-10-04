@@ -1,4 +1,3 @@
-$bleu-fonce : #154975;
 $vert-fonce : #5A8358;
 $vert : #5EC261;
 $vert-clair : #DBF9D8;
@@ -7,7 +6,6 @@ $vert-clair : #DBF9D8;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: $vert-clair;
     padding: 10vh 0;
 
     @media screen and (max-width:920px) {
@@ -62,6 +60,7 @@ $vert-clair : #DBF9D8;
     border-radius: 10px;
     border: 0;
     background-color: $vert-fonce;
+    cursor: pointer;
 }
 
 .contact__form button:active {
@@ -77,6 +76,8 @@ $vert-clair : #DBF9D8;
 #email,
 #message {
     border-radius: 0px 5px 5px 5px;
+    box-shadow: 2px 2px 2px 2px $vert-fonce;
+
     border: 0;
     width: 20em;
     margin-bottom: 5px;
@@ -119,6 +120,7 @@ $vert-clair : #DBF9D8;
     align-items: center;
     gap: 1vh;
     border: 3px solid black;
+    background-color: $vert-clair;
     border-radius: 35px;
     padding: 1.5vh;
 

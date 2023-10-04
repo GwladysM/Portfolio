@@ -13,12 +13,13 @@ $vert-clair : rgb(219, 249, 216);
     padding: 20vh 20vh 10vh 20vh;
 
     @media screen and (max-width:920px) {
+        justify-content: flex-start;
+        padding: 15vh 5vh 5vh 5vh;
         height: 100%;
-        padding: 8vh;
     }
 
     @media screen and (max-width: 560px) {
-        padding: 5vh;
+        padding: 15vh 3vh 5vh 3vh;
     }
 
     h3 {
@@ -94,6 +95,10 @@ $vert-clair : rgb(219, 249, 216);
     justify-content: space-around;
     width: 100%;
     padding-top: 10vh;
+
+    @media screen and (max-width: 560px) {
+        padding-top: 3vh;
+    }
 
     a {
         border: 1vh solid $vert-clair;

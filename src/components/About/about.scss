@@ -1,13 +1,7 @@
-$bleu-fonce : #154975;
-$vert-fonce : rgb(90, 131, 88);
-$vert : rgb(94, 194, 97);
-$vert-clair : #DBF9D8;
-
 .about {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: $vert-clair;
     padding: 10vh 0;
 
     @media screen and (max-width: 920px) {

@@ -1,0 +1,24 @@
+$bleu-fonce : #154975;
+$vert-fonce : #5a8358;
+$vert : #5EC261;
+$vert-clair : #DBF9D8;
+
+.error {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.error__link {
+    background-color: $vert-clair;
+    border-radius: 2vh;
+    padding: 2vh;
+
+    @media screen and (max-width: 560px) {
+        border-radius: 0;
+    }
+}

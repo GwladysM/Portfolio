@@ -8,7 +8,7 @@ function Banner() {
             backgroundSize: 'cover'
         }}>
             <div className="banner">
-                <h1>Bienvenu,</h1>
+                <h1>Bienvenue,</h1>
                 <br />
                 <h2>Je suis <span>Gwladys </span>, Développeuse Front-End</h2>
             </div>

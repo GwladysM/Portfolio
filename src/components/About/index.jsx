@@ -9,9 +9,9 @@ function About() {
                 Hello,
                 <br />
                 Je suis Gwladys, la trentaine,
-                originaire du bassin Rennais, je vit désormais en Guadeloupe.
+                originaire du bassin Rennais, je vis désormais en Guadeloupe.
                 <br />
-                Mon parcours à changé de direction récemment, lorsque
+                Mon parcours a changé de direction récemment, lorsque
                 j'ai choisi d'effectuer une reconversion professionnelle après
                 dix belles années en tant qu'assistante spécialisée vétérinaire.
                 <br />
