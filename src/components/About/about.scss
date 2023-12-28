@@ -1,3 +1,8 @@
+$bleu-fonce : #154975;
+$vert-fonce : #5a8358;
+$vert : #5EC261;
+$vert-clair : #DBF9D8;
+
 .about {
     display: flex;
     flex-direction: column;
@@ -13,7 +18,7 @@
     padding-bottom: 5vh;
 }
 
-.about__descrption {
+.about__description {
     margin: 5vh;
     padding: 5vh;
     border-bottom: 1px solid black;
@@ -25,5 +30,25 @@
         padding: 1vh;
         border-bottom: 0;
         border-left: 0;
+    }
+}
+
+.about__more {
+    font-size: 25px;
+    line-height: 4vh;
+    text-align: center;
+}
+
+.arrow {
+    font-size: 40px;
+    color: white;
+    background-color: $vert-fonce;
+    border-radius: 5vh;
+    padding: 2vh;
+    cursor: pointer;
+    transition: transform 300ms ease-in-out;
+
+    &:hover {
+        transform: translateY(3vh);
     }
 }

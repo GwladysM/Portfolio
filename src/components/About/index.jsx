@@ -1,11 +1,12 @@
 import React from "react";
 import './about.scss';
+import { FaArrowDown } from "react-icons/fa";
 
 function About() {
     return (
         <div id="about" className="about">
             <h2>Qui suis-je ?</h2>
-            <p className="about__descrption">
+            <p className="about__description">
                 Hello,
                 <br />
                 Je suis Gwladys, la trentaine,
@@ -23,6 +24,14 @@ function About() {
                 <br />
                 Mon objectif désormais est de progresser et me perfectionner sur la partie front-end et en particulier via React.
             </p>
+            <p className="about__more">
+                Besoin de créer votre site web ?
+                <br />
+                Rendez-vous dans la partie contact afin de discuter de votre projet !
+            </p>
+            <a href="/Portfolio/#contact">
+                <FaArrowDown className="arrow" />
+            </a>
         </div>
     )
 }
