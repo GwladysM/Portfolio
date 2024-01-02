@@ -11,7 +11,7 @@ function Contact() {
         console.log("envoyé");
     };
 
-    const pdfPath = process.env.PUBLIC_URL + '/Gwladys_Morlier_CV_2023.pdf';
+    const pdfPath = process.env.PUBLIC_URL + '/Gwladys_Morlier_CV_2024.pdf';
 
     return (
         <div id="contact" className="contact__container">
