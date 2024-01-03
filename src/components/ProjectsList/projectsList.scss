@@ -1,7 +1,8 @@
-$bleu-fonce : #154975;
-$vert-fonce : rgb(90, 131, 88);
-$vert : rgb(94, 194, 97);
-$vert-clair : #DBF9D8;
+$vert-fonce : #386641;
+$vert : #6A994E;
+$vert-clair : #A7C957;
+$rouge: #BC4749;
+$beige: #F2E8CF;
 
 .projects {
     display: flex;
@@ -9,7 +10,7 @@ $vert-clair : #DBF9D8;
     justify-content: center;
     align-items: center;
     padding: 5vh 0vh;
-    background-color: rgba(90, 131, 88, 0.8);
+    background-color: $vert-clair;
 }
 
 .projects__list {
@@ -56,7 +57,7 @@ $vert-clair : #DBF9D8;
 
     img {
         object-fit: cover;
-        box-shadow: 5px 5px 15px 3px $bleu-fonce;
+        box-shadow: 5px 5px 15px 3px $vert-fonce;
     }
 
     img,
@@ -72,6 +73,6 @@ $vert-clair : #DBF9D8;
     }
 
     &:hover span {
-        background-color: rgb(219, 249, 216, 0.7);
+        background-color: rgba(167, 201, 87, 0.6);
     }
 }

@@ -1,7 +1,8 @@
-$bleu-fonce : rgb(21, 73, 117);
-$vert-fonce : rgb(90, 131, 88);
-$vert : #5EC261;
-$vert-clair : #DBF9D8;
+$vert-fonce : #386641;
+$vert : #6A994E;
+$vert-clair : #A7C957;
+$rouge: #BC4749;
+$beige: #F2E8CF;
 
 .footer {
     display: flex;
@@ -10,7 +11,7 @@ $vert-clair : #DBF9D8;
     width: auto;
     height: 80px;
     padding: 20px;
-    background-color: rgba(90, 131, 88, 0.8);
+    background-color: $vert-clair;
 
     @media screen and (max-width: 560px) {
         height: auto;

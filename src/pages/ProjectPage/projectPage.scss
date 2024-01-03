@@ -1,15 +1,20 @@
-$bleu-fonce : rgb(21, 73, 117);
-$vert-fonce : rgb(90, 131, 88);
-$vert : rgb(94, 194, 97);
-$vert-clair : rgb(219, 249, 216);
+$vert-fonce : #386641;
+$vert : #6A994E;
+$vert-clair : #A7C957;
+$rouge: #BC4749;
+$beige: #F2E8CF;
+
+@mixin degrade {
+    background: linear-gradient(to top, #ede574, #e1f5c4);
+}
 
 .card__container {
+    @include degrade;
     width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgb(219, 249, 216, .8), rgb(219, 249, 216, 0.3)), url('https://cdn.pixabay.com/photo/2015/08/30/07/38/vintage-913891_640.jpg');
     background-size: cover;
     padding: 20vh 20vh 10vh 20vh;
 
@@ -53,7 +58,9 @@ $vert-clair : rgb(219, 249, 216);
 .skill {
     margin: 0;
     padding: 1vh 2vh;
-    background-color: $vert-clair;
+    background-color: $rouge;
+    color: $beige;
+    font-weight: bold;
     border-radius: 1vh;
     text-align: center;
     text-transform: uppercase;
@@ -77,8 +84,8 @@ $vert-clair : rgb(219, 249, 216);
 .mobile {
     height: 450px;
     box-sizing: border-box;
-    box-shadow: 5px 5px 15px 3px rgba(90, 131, 88, 0.6);
-    border: 1vh solid $vert-fonce;
+    box-shadow: 5px 5px 15px 3px $vert-fonce;
+    border: 1vh solid;
     border-radius: 5vh;
 }
 
@@ -113,13 +120,12 @@ $vert-clair : rgb(219, 249, 216);
     }
 
     a {
-        border: 1vh solid $vert-clair;
+        border: 1vh solid;
         border-radius: 4vh;
         padding: 2vh;
     }
 
     a:hover {
-        border: 1vh solid $vert-fonce;
-        background-color: $vert-clair;
+        background-color: $beige;
     }
 }

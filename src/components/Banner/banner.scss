@@ -1,9 +1,15 @@
-$bleu-fonce : #154975;
-$vert-fonce : rgb(90, 131, 88);
-$vert : rgb(94, 194, 97);
-$vert-clair : #DBF9D8;
+$vert-fonce : #386641;
+$vert : #6A994E;
+$vert-clair : #A7C957;
+$rouge: #BC4749;
+$beige: #F2E8CF;
+
+@mixin degrade {
+    background: linear-gradient(to top, #ede574, #e1f5c4);
+}
 
 .banner__container {
+    @include degrade;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,6 +29,6 @@ $vert-clair : #DBF9D8;
 
 span {
     font-weight: 900;
-    color: #34825f;
-    text-shadow: #6e0000 2px 2px 2px;
+    color: $vert-fonce;
+    text-shadow: $rouge 2px 2px 2px;
 }

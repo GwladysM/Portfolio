@@ -1,6 +1,8 @@
-$vert-fonce : #5A8358;
-$vert : #5EC261;
-$vert-clair : #DBF9D8;
+$vert-fonce : #386641;
+$vert : #6A994E;
+$vert-clair : #A7C957;
+$rouge: #BC4749;
+$beige: #F2E8CF;
 
 .contact__container {
     display: flex;
@@ -59,7 +61,7 @@ $vert-clair : #DBF9D8;
     padding: 10px;
     border-radius: 10px;
     border: 0;
-    background-color: $vert-fonce;
+    background-color: $vert;
     cursor: pointer;
 }
 
@@ -119,8 +121,8 @@ $vert-clair : #DBF9D8;
     justify-content: center;
     align-items: center;
     gap: 1vh;
-    border: 3px solid $vert-fonce;
-    background-color: $vert-clair;
+    border: 3px solid $vert;
+    background-color: $beige;
     border-radius: 35px;
     padding: 1.5vh;
     margin-top: 3vh;
@@ -132,7 +134,7 @@ $vert-clair : #DBF9D8;
     }
 
     @media screen and (max-width:560px) {
-        border: 2px solid black;
+        border: 2px solid $vert;
     }
 }
 
