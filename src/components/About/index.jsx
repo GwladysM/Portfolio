@@ -1,6 +1,5 @@
 import React from "react";
 import './about.scss';
-import { FaArrowDown } from "react-icons/fa";
 
 function About() {
     return (
@@ -20,18 +19,17 @@ function About() {
                 <br />
                 Au cours de cette formation, j'ai appris différents langages de programmation,
                 notamment HTML, CSS, Javascript et plus récemment React.
+                <br />
                 Mais ce n'est pas tout, apprendre comment optimiser un site web, améliorer son référencement et son SEO ont également fait partie de ma formation.
+                Dans la partie <span style={{
+                    color: "black",
+                    textShadow: "none",
+                    textTransform: "uppercase",
+                    fontWeight: "normal"
+                }}>mes projets</span>, vous retrouverez les travaux que j'ai réalisé.
                 <br />
                 Mon objectif désormais est de progresser et me perfectionner sur la partie front-end et en particulier via React.
             </p>
-            <p className="about__more">
-                Besoin de créer votre site web ?
-                <br />
-                Rendez-vous dans la partie contact afin de discuter de votre projet !
-            </p>
-            <a href="/Portfolio/#contact">
-                <FaArrowDown className="arrow" />
-            </a>
         </div>
     )
 }

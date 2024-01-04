@@ -33,23 +33,3 @@ $beige: #F2E8CF;
         border-left: 0;
     }
 }
-
-.about__more {
-    font-size: 25px;
-    line-height: 4vh;
-    text-align: center;
-}
-
-.arrow {
-    font-size: 40px;
-    color: white;
-    background-color: $vert;
-    border-radius: 5vh;
-    padding: 2vh;
-    cursor: pointer;
-    transition: transform 300ms ease-in-out;
-
-    &:hover {
-        transform: translateY(3vh);
-    }
-}
