@@ -1,6 +1,6 @@
 [
     {
-        "id": "Booki",
+        "id": "Intégration & responsive",
         "title": "Créer la page d'accueil d'une agence de voyage avec HTML & CSS",
         "cover": "./assets/Booki/Booki-desk.webp",
         "description": "Premier projet effectué dans le rôle d'un développeur web, ayant pour mission d'implémenter une interface responsive en utilisant HTML et CSS. Intégrer du contenu conformément à une maquette.",
@@ -18,7 +18,7 @@
         "mobile": "https://gwladysm.github.io/Portfolio/assets/Booki/Booki-tel.webp"
     },
     {
-        "id": "Bluel",
+        "id": "Javascript",
         "title": "Créer une page web dynamique avec JavaScript",
         "cover": "./assets/Bluel/Bluel-desk.webp",
         "description": "Second projet effectué. Dans le rôle d'un développeur front-end, je devait mettre en place les différentes fonctionnalités du site web d'une architecte (connexion, ajout/suppression de projets). Manipuler les élements du DOM avec Javascript, récupérer les données utilisateurs dans le JavaScript via des formulaires et gérer les événements utilisateurs avec JavaScript.",
@@ -37,7 +37,7 @@
         "mobile": "https://gwladysm.github.io/Portfolio/assets/Bluel/Bluel-tel.webp"
     },
     {
-        "id": "Carducci",
+        "id": "Débug & SEO",
         "title": "Débugger et optimisez un site de photographe",
         "cover": "./assets/Carducci/Carducci-desk.webp",
         "description": "Troisième projet. Dans le rôle d'un développeur freelance, j'ai optimisé le SEO et le référencement d'un site de photographe. Ainsi que débugger le site web grâce aux Chrome DevTools et rédiger un cahier de recette pour tester le site.",
@@ -53,7 +53,7 @@
         "mobile": "https://gwladysm.github.io/Portfolio/assets/Carducci/Carducci-tel.webp"
     },
     {
-        "id": "Kasa",
+        "id": "Développement avec React",
         "title": "Créer une application web de location immobilière avec React",
         "cover": "./assets/Kasa/Kasa-desk.webp",
         "description": "Quatrème projet. Dans le rôle d'un développeur front-end en freelance, j'ai effectué la refonte d'un site de location de logement en React en suivant ces différents points : - Mettre en œuvre des animations CSS, - Développer des éléments de l'interface d'un site web grâce à des composants React, - Initialiser une application avec Create React App, - Développer une interface web avec Sass, - Configurer la navigation entre les pages de l'application avec React Router.",
@@ -71,7 +71,7 @@
         "mobile": "https://gwladysm.github.io/Portfolio/assets/Kasa/Kasa-tel.webp"
     },
     {
-        "id": "Vieux Grimoire",
+        "id": "Back-end",
         "title": "Développer le back-end d'un site de notation de livres",
         "cover": "./assets/Grimoire/mon-vieux-grimoire-desk.webp",
         "description": "Cinquième projet de la formation cette fois-ci en tant que développeur back-end freelance. La mission était de développer le back-end et l'API d'un site de notation de livres. Aussi, stocker des données de manière sécuriée, mettre en place la base de données, Implémenter un modèle logique de données conformément à la réglementation et aux spécifications techniques.",

@@ -13,7 +13,7 @@ function ProjectsList() {
                     <Link to={`/Portfolio/mes-projets/${project.id}`} className="card"
                         key={project.id}
                         id={project.id}>
-                        <h3>Projet {project.id}</h3>
+                        <h3>Projet <br />{project.id}</h3>
                         <span></span>
                         <img src={project.cover} alt={project.title} />
                     </Link>

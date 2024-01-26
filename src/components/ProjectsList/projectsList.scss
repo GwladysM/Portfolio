@@ -1,8 +1,8 @@
 $vert-fonce : #386641;
 $vert : #6A994E;
-$vert-clair : #A7C957;
+$vert-clair : #a7c957;
 $rouge: #BC4749;
-$beige: #F2E8CF;
+$beige: rgb(242, 232, 207);
 
 .projects {
     display: flex;
@@ -41,6 +41,7 @@ $beige: #F2E8CF;
         transition: opacity 0.3s ease;
         z-index: 1;
         text-transform: uppercase;
+        line-height: 8vh;
     }
 
     h3,
@@ -73,6 +74,7 @@ $beige: #F2E8CF;
     }
 
     &:hover span {
-        background-color: rgba(167, 201, 87, 0.6);
+        background-color: rgba(242, 232, 207, 0.6);
+        backdrop-filter: blur(3px);
     }
 }

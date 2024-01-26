@@ -33,8 +33,13 @@ h4 {
   margin: 0;
 }
 
+h1,
+h2 {
+  font-family: 'Dancing Script', cursive;
+}
+
 h1 {
-  font-size: 48px;
+  font-size: 70px;
 
   @media screen and (max-width: 920px) {
     font-size: 43px;
@@ -42,7 +47,7 @@ h1 {
 }
 
 h2 {
-  font-size: 45px;
+  font-size: 65px;
   padding: 10vh 0;
 
   @media screen and (max-width: 920px) {

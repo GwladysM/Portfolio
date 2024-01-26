@@ -21,12 +21,15 @@ function About() {
                 notamment HTML, CSS, Javascript et plus récemment React.
                 <br />
                 Mais ce n'est pas tout, apprendre comment optimiser un site web, améliorer son référencement et son SEO ont également fait partie de ma formation.
-                Dans la partie <span style={{
-                    color: "black",
-                    textShadow: "none",
-                    textTransform: "uppercase",
-                    fontWeight: "normal"
-                }}>mes projets</span>, vous retrouverez les travaux que j'ai réalisé.
+                Dans la partie <a href="#projects">
+                    <span style={{
+                        color: "black",
+                        textShadow: "none",
+                        textTransform: "uppercase",
+                        fontWeight: "normal",
+                        fontSize: "22px"
+                    }}>mes projets</span>
+                </a>, vous retrouverez les travaux que j'ai réalisé.
                 <br />
                 Mon objectif désormais est de progresser et me perfectionner sur la partie front-end et en particulier via React.
             </p>

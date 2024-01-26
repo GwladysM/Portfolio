@@ -13,13 +13,12 @@ $beige: #F2E8CF;
     position: fixed;
     box-sizing: border-box;
     background-color: $vert-clair;
-
 }
 
 .navbar__logo {
     display: flex;
     flex-direction: row;
-    width: 100vh;
+    /*width: 100vh;*/
     min-width: fit-content;
     margin: 20px;
 
@@ -60,6 +59,10 @@ $beige: #F2E8CF;
         display: flex;
         color: $vert-fonce;
     }
+}
+
+a p {
+    margin: 20px 0px;
 }
 
 .active {
