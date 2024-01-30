@@ -1,11 +1,10 @@
-$vert-fonce : #386641;
-$vert : #6A994E;
-$vert-clair : #A7C957;
+$vert-fonce : rgb(98, 108, 85);
+$vert : rgb(157, 164, 142);
+$beige: rgb(245, 245, 245);
 $rouge: #BC4749;
-$beige: #F2E8CF;
 
 @mixin degrade {
-    background: linear-gradient(to top, #ede574, #e1f5c4);
+    background: linear-gradient(to top, $vert, $beige);
 }
 
 .card__container {

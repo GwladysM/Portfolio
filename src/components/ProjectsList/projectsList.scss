@@ -1,8 +1,7 @@
-$vert-fonce : #386641;
-$vert : #6A994E;
-$vert-clair : #a7c957;
+$vert-fonce : rgb(98, 108, 85);
+$vert : rgb(157, 164, 142);
+$beige: rgb(245, 245, 245);
 $rouge: #BC4749;
-$beige: rgb(242, 232, 207);
 
 .projects {
     display: flex;
@@ -10,7 +9,7 @@ $beige: rgb(242, 232, 207);
     justify-content: center;
     align-items: center;
     padding: 5vh 0vh;
-    background-color: $vert-clair;
+    background-color: $vert;
 }
 
 .projects__list {
@@ -74,7 +73,7 @@ $beige: rgb(242, 232, 207);
     }
 
     &:hover span {
-        background-color: rgba(242, 232, 207, 0.6);
+        background-color: rgba(245, 245, 245, 0.6);
         backdrop-filter: blur(3px);
     }
 }
