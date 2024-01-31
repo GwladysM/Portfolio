@@ -78,8 +78,10 @@ $rouge: #BC4749;
     gap: 2vh;
 }
 
-.about_photo {
+.middle img {
     width: 20%;
     margin: 2vh;
     box-shadow: 1px 1px 10px 1px $vert;
+    border-radius: 20px;
+    padding: 10px;
 }

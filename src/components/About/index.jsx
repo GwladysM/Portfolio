@@ -38,7 +38,7 @@ function About() {
                             }}>mes projets</span>
                         </a>, vous retrouverez les travaux que j'ai réalisé.
                     </div>
-                    <img className="about_photo" src="./assets/Profil-small.webp" alt="Profil" />
+                    <img src="./" alt="Portrait à ajouter" />
                 </div>
                 <div className="bottom">
                     <div className="center">
