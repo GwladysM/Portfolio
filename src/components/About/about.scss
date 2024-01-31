@@ -21,9 +21,7 @@ $rouge: #BC4749;
 .about__description {
     margin: 5vh;
     padding: 5vh;
-    box-shadow: -1vh 1vh 2vh 0.5vh;
-    border-radius: 0px 1.5vh 1.5vh 1.5vh;
-    line-height: 4vh;
+    text-align: center;
 
     @media screen and (max-width:560px) {
         margin: 1vh;
@@ -31,4 +29,23 @@ $rouge: #BC4749;
         box-shadow: none;
         border-radius: 0;
     }
+}
+
+.left,
+.right,
+.center {
+    background-color: $vert;
+    /*box-shadow: 5px 5px 15px 3px $vert;*/
+    border-radius: 0px 1.5vh 1.5vh 1.5vh;
+    line-height: 4vh;
+    padding: 5vh;
+    margin: 2vh;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
 }

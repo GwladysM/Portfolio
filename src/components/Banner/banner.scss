@@ -1,6 +1,6 @@
 $vert-fonce : rgb(98, 108, 85);
 $vert : rgb(157, 164, 142);
-$beige: #f5f5f5;
+$beige: rgb(245, 245, 245);
 $rouge: #BC4749;
 
 .banner__container {
@@ -9,14 +9,23 @@ $rouge: #BC4749;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    border-radius: (0% 10% 100% 0% / 0% 0% 60% 10%);
+    /*border-radius: (0% 10% 100% 0% / 0% 0% 60% 10%);*/
 
     @media screen and (max-width:920px) {
         border-radius: 0;
-        text-align: center;
     }
 }
 
 .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 0vh 4vh;
+}
+
+.banner h2 {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-size: 45px;
+    padding: 2vh 0;
 }
