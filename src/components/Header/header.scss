@@ -1,5 +1,5 @@
 $vert-fonce : rgb(98, 108, 85);
-$vert : rgb(157, 164, 142);
+$vert : #9da48e;
 $beige: #f5f5f5;
 $rouge: #BC4749;
 
@@ -8,10 +8,10 @@ $rouge: #BC4749;
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 80px;
+    height: 100px;
     position: fixed;
     box-sizing: border-box;
-    background-color: $beige;
+    background: linear-gradient(45deg, $vert-fonce, 10%, $beige);
 }
 
 .navbar__logo {
@@ -19,7 +19,7 @@ $rouge: #BC4749;
     flex-direction: row;
     /*width: 100vh;*/
     min-width: fit-content;
-    margin: 20px;
+    margin: 10px 20px;
 
     @media screen and (max-width: 920px) {
         display: none;

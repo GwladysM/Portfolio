@@ -4,7 +4,7 @@ import './logo.scss';
 function Logo() {
     return (
         <div className="logo">
-            <h4>Gwladys Morlier</h4>
+            <img src="./favicon.ico" alt="" />
         </div>
     )
 }

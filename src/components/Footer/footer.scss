@@ -10,7 +10,7 @@ $rouge: #BC4749;
     width: auto;
     height: 80px;
     padding: 20px;
-    background-color: $beige;
+    background: linear-gradient(-45deg, $vert-fonce, 10%, $beige);
 
     @media screen and (max-width: 560px) {
         height: auto;
@@ -18,7 +18,7 @@ $rouge: #BC4749;
     }
 
     &__logo {
-        margin: 20px;
+        margin: 0 20px;
 
         @media screen and (max-width: 560px) {
             display: none;
@@ -38,6 +38,6 @@ $rouge: #BC4749;
     font-size: 40px;
 
     &:hover {
-        filter: drop-shadow(2px 4px 6px white);
+        filter: drop-shadow(2px 4px 6px $rouge);
     }
 }
