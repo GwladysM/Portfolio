@@ -25,7 +25,7 @@ $rouge: #BC4749;
     margin: 0 5vh;
     padding: 5vh;
 
-    @media screen and (max-width:560px) {
+    @media screen and (max-width:576px) {
         margin: 1vh;
         padding: 1vh;
         box-shadow: none;
@@ -35,7 +35,9 @@ $rouge: #BC4749;
 
 .top {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vh;
 }
 
 .left,
@@ -46,28 +48,33 @@ $rouge: #BC4749;
     line-height: 4vh;
     padding: 5vh;
     color: $beige;
-}
 
-.right {
-    background-color: $beige;
-    border-radius: 15vh 0vh 15vh 10vh;
-    line-height: 4vh;
-    padding: 5vh;
-    height: fit-content;
+    @media screen and (max-width: 1200px) {
+        border-radius: 0vh 3vh 5vh 5vh;
+    }
 }
 
 .left {
     text-align: left;
-    width: 60%;
+}
+
+.center {
+    text-align: center;
 }
 
 .right {
     text-align: justify;
     color: $vert-fonce;
-}
+    background-color: $beige;
+    border-radius: 15vh 0vh 15vh 10vh;
+    line-height: 4vh;
+    padding: 5vh;
+    height: fit-content;
 
-.center {
-    text-align: center;
+    @media screen and (max-width: 1200px) {
+        border-radius: 3vh 0vh 5vh 5vh;
+    }
+
 }
 
 .middle {
@@ -78,10 +85,15 @@ $rouge: #BC4749;
     gap: 2vh;
 }
 
-.middle img {
+.middle img,
+.top img {
     width: 20%;
     margin: 2vh;
     box-shadow: 1px 1px 10px 1px $vert;
     border-radius: 20px;
     padding: 10px;
+
+    @media screen and (max-width:1200px) {
+        display: none;
+    }
 }

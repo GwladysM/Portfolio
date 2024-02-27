@@ -17,7 +17,7 @@ function About() {
                         j'ai choisi d'effectuer une reconversion professionnelle après
                         dix belles années en tant qu'assistante spécialisée vétérinaire.
                     </div>
-                    <div className="nothing"></div>
+                    <img src="./assets/bureau.jpg" alt="Espace de travail" />
                 </div>
                 <div className="middle">
                     <div className="right">
@@ -38,7 +38,7 @@ function About() {
                             }}>mes projets</span>
                         </a>, vous retrouverez les travaux que j'ai réalisé.
                     </div>
-                    <img src="./" alt="Portrait à ajouter" />
+                    <img src="./assets/portrait.jpg" alt="Mon portrait" />
                 </div>
                 <div className="bottom">
                     <div className="center">
