@@ -9,13 +9,13 @@ $rouge: #BC4749;
     align-items: center;
     padding: 10vh 0;
 
+    & h2 {
+        padding-bottom: 5vh;
+    }
+
     @media screen and (max-width: 920px) {
         padding: 5vh 0;
     }
-}
-
-.about h2 {
-    padding-bottom: 5vh;
 }
 
 .about__description {
@@ -26,10 +26,8 @@ $rouge: #BC4749;
     padding: 5vh;
 
     @media screen and (max-width:576px) {
-        margin: 1vh;
-        padding: 1vh;
-        box-shadow: none;
-        border-radius: 0;
+        margin: 0;
+        padding: 0;
     }
 }
 
@@ -51,6 +49,10 @@ $rouge: #BC4749;
 
     @media screen and (max-width: 1200px) {
         border-radius: 0vh 3vh 5vh 5vh;
+    }
+
+    @media screen and (max-width: 576px) {
+        border-radius: 0;
     }
 }
 
@@ -75,6 +77,9 @@ $rouge: #BC4749;
         border-radius: 3vh 0vh 5vh 5vh;
     }
 
+    @media screen and (max-width: 576px) {
+        border-radius: 0;
+    }
 }
 
 .middle {
